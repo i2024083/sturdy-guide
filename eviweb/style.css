@@ -14,12 +14,12 @@ body{
 }
 
 .container{
-    position: absolute;
+    position: fixed;
     scroll-snap-type: x mandatory;
     overflow: auto;
     display: flex;
-    width: 100vw;
-    height: 100dvh;
+    width: 1640px;
+    min-height: 2360px;
     /* z-index: 9999; */
 }
 
@@ -27,12 +27,14 @@ section{
     scroll-snap-align: start;
     flex: none;
     width: 100vw;
-    height: 100dvh;
+    /* height: 100dvh; */
+    height: 2360px;
     margin: 20%;
 }
 
 section div{
-    padding: 0 20%;
+    /* padding: 0 20%; */
+    height: 2360px;
 }
 
 h1{
@@ -44,18 +46,16 @@ h1{
     height: auto;
 }
 
-.moji{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
-
 .moji img{
-    width: 100%;
-    height: 100dvh;
+    width: 1640px;
+    height: 2360px;
 }
 
 section:nth-child(1),
 section:nth-child(2){
     margin: 0;
+}
+
+section:nth-child(3){
+    padding: 0 20%;
 }
