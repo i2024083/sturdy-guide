@@ -50,10 +50,10 @@ h1{
     height: auto;
 }
 
-.moji img{
+/* .moji img{
     width: 1640px;
     height: 2360px;
-}
+} */
 
 section:nth-child(1),
 section:nth-child(2){
