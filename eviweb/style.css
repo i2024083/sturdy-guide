@@ -34,7 +34,8 @@ section{
 
 section div{
     /* padding: 0 20%; */
-    height: 2360px;
+    width: 100%;
+    height: 100%;
 }
 
 h1{
