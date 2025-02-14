@@ -1,10 +1,10 @@
-body{
+body {
     width: 100%;
     height: 100%;
     font-family: "Noto Sans TC", serif;
 }
 
-.waku{
+.waku {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,20 +13,21 @@ body{
     /* display: none; */
 }
 
-.container{
+.container {
     position: fixed;
     scroll-snap-type: x mandatory;
-    overflow: auto;
+    /* overflow: auto; */
+    overflow-x: auto;
+    overflow-y: hidden;
     display: flex;
     width: 100%;
-    height: 100dvh
-;
+    height: 100dvh;
     min-width: 1640px;
     min-height: 2360px;
     /* z-index: 9999; */
 }
 
-section{
+section {
     scroll-snap-align: start;
     flex: none;
     width: 100vw;
@@ -35,31 +36,31 @@ section{
     margin: 20%;
 }
 
-section div{
+section div {
     /* padding: 0 20%; */
     width: 100%;
     height: 100%;
 }
 
-h1{
+h1 {
     font-size: 100px;
 }
 
-.btn img{
+.btn img {
     width: 500px;
     height: auto;
 }
 
-/* .moji img{
-    width: 1640px;
-    height: 2360px;
-} */
+.moji img {
+    width: 100%;
+    height: 100%;
+}
 
 section:nth-child(1),
-section:nth-child(2){
+section:nth-child(2) {
     margin: 0;
 }
 
-section:nth-child(3){
+section:nth-child(3) {
     padding: 0 20%;
 }
