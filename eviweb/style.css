@@ -34,7 +34,7 @@ section {
     height: 100dvh;
     /* height: 100dvh; */
     /* height: 2360px; */
-    margin: 20%;
+    /* margin: 20%; */
 }
 
 section div {
@@ -63,5 +63,15 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-    padding: 0 20%;
+    max-width: 1640px;
+    max-height: 2360px;
+    min-width: 820px;
+    min-height: 1180px;
+    width: 100%;
+    height: 100%;
+    height: 100%;
+}
+
+.section-3 div {
+    padding: 7% 9%;
 }

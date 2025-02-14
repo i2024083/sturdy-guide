@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <img class="waku" src="img/menu_waku.png" alt="">
     <div class="container">
@@ -18,14 +20,14 @@
             <div class="moji">
                 <img src="img/moji1.png" alt="">
             </div>
-            
+
         </section>
         <section>
             <div class="moji">
                 <img src="img/moji2.png" alt="">
             </div>
         </section>
-        <section>
+        <section class="section-3">
             <div>
                 <h1>1</h1>
                 <p class="btn"><a onclick="sound()"><img src="img/da-ji-pai.png" alt=""></a></p>
@@ -36,11 +38,11 @@
         </section>
     </div>
     <script>
-        function sound()
-{
-	// [ID:sound-file]の音声ファイルを再生[play()]する
-	document.getElementById( 'sound' ).play() ;
-}
+        function sound() {
+            // [ID:sound-file]の音声ファイルを再生[play()]する
+            document.getElementById('sound').play();
+        }
     </script>
 </body>
+
 </html>
