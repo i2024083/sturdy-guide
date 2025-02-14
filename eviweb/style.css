@@ -43,3 +43,19 @@ h1{
     width: 500px;
     height: auto;
 }
+
+.moji{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.moji img{
+    width: 100%;
+    height: 100dvh;
+}
+
+section:nth-child(1),
+section:nth-child(2){
+    margin: 0;
+}
