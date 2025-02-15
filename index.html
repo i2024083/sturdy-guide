@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜単</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="waku" src="img/menu_waku.png" alt="">
+    <div class="container">
+        <section>
+            <div class="moji">
+                <img src="img/moji1.png" alt="">
+            </div>
+            
+        </section>
+        <section>
+            <div class="moji">
+                <img src="img/moji2.png" alt="">
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1></h1>
+                <p class="btn"><a onclick="sound()"><img src="img/diguaqiu3.PNG" alt=""></a></p>
+                <audio id="sound" preload="auto">
+                    <source src="audio/sei_ge_agemono_r02.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
+    </div>
+    <script>
+        function sound()
+{
+	// [ID:sound-file]の音声ファイルを再生[play()]する
+	document.getElementById( 'sound' ).play() ;
+}
+    </script>
+</body>
+</html>
